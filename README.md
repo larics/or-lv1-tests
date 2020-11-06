@@ -12,7 +12,7 @@ Clone this repo in any folder of your choosing:
 $ git clone https://github.com/larics/or-lv1-tests.git
 ```
 
-or download .zip file from Github: https://github.com/larics/or-lv1-tests.git
+or download .zip file from Github.
 
 ## Usage
 Make sure to position your MATLAB/Octave session to the folder containing the test code. Paste your functions into the folder:
@@ -69,7 +69,7 @@ closest_q error rate: 0%
 If you have error rate >0, check that you are using infinity norm to calculate the distance between configurations. If you are sure your function works and the test fail, raise an issue. 
 
 
-##### To test direct and inverse kinematics, run:
+##### To test transform_w, run:
 ```
 >> test_transform_w(@transform_w);
 
